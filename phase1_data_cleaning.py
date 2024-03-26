@@ -42,7 +42,7 @@ save_dir = SAVE_DIRECTORY_PHASE1
 abcd_data_dictionary = pd.read_csv(f'{ANALYSIS_NDA_OUTPUTS}/ABCD_data_dictionary.csv')
 
 
-choices_coding_nda3 = pd.read_csv(f'{ANALYSIS_NDA_OUTPUTS}/notebooks/general/choices_coding_nda.3.0.csv', encoding='latin-1')
+choices_coding_nda3 = pd.read_csv(f'{ANALYSIS_NDA_OUTPUTS}/choices_coding_nda.3.0.csv', encoding='latin-1')
 
 #run 04_create_choice_coding_nda_4.R
 choices_coding_nda4 = pd.read_csv(f'{ANALYSIS_NDA_OUTPUTS}/choices_coding_nda.4.0.csv')

@@ -76,7 +76,7 @@ load_dir_phase1 = SAVE_DIRECTORY_PHASE1
 load_dir_phase2 = SAVE_DIRECTORY_PHASE2
 
 #usa-states-census-2014.shp from https://github.com/joncutrer/geopandas-tutorial.git
-load_us_geo_template = f'{GEO_DATA}/geopandas-tutorial/data'
+load_us_geo_template = GEO_DATA
 
 #load data
 data = pd.read_csv(f'{load_dir_phase1}/baseline_screen_6_1yr_z_4_cleaned.csv', index_col= 'subjectkey')
