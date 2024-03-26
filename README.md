@@ -10,16 +10,25 @@ This study utilizes all non-imaging instruments as outlined in "Release Notes: A
 
 (ABCD) Data Release 4.0 available from https://nda.nih.gov/abcd
 
-After downloading all non-imaging instruments from ABCD release 4.0, analysis scripts can be run in the following order:
+To replicate analyses, download all non-imaging instruments from ABCD release 4.0 and save .txt files in the provided folder /ABCD_NonImaging
+
+Run analysis scripts in the following order:
 
 1. phase1_data_collection.py
+   - Merges all individual study files from ABCD release 4.0 non-imaging on the combination of 'subjectkey' and 'eventname' columns to create dataframe for subsequent analyses
+
 2. phase1_data_cleaning.py
+   - Performs steps outlined in Methods 'Data curation protocol’ to produce preprocessed dataframe for training CVAE deep learning architecture
+
 3. phase2_model_training_validation.py
+   - Carries out steps outlined in Methods section 'Design of deep learning model architecture' to evaluate several model architectures and compare performance against PCA
+   
 4. phase3_main_interpretation_analysis.py
+   - Contains all analyses interpreting the trained CVAE model to produce main results
 
 --
 
-CVAE model in folder /trvaep adapted from https://github.com/theislab/trvaep (as utilized in Lotfollahi et al., 2020)
+CVAE model in folder /trvaep adapted from https://github.com/theislab/trvaep
 
 Geoplotting data in /geo_us_data from https://github.com/joncutrer/geopandas-tutorial.git
 
