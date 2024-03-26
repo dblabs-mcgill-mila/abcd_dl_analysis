@@ -10,7 +10,7 @@ This study utilizes all non-imaging instruments as outlined in "Release Notes: A
 
 (ABCD) Data Release 4.0 available from https://nda.nih.gov/abcd
 
-To replicate analyses, download all non-imaging instruments from ABCD release 4.0 and save .txt files in the provided folder /ABCD_NonImaging
+To replicate analyses, download all non-imaging instruments from ABCD release 4.0 and create folder abcd_dl_analysis/ABCD_NonImaging to save all .txt files
 
 Run analysis scripts in the following order:
 
