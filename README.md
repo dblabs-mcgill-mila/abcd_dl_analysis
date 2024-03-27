@@ -30,8 +30,6 @@ Run analysis scripts in the following order:
 
 CVAE model in folder /trvaep adapted from https://github.com/theislab/trvaep
 
-Geoplotting data in /geo_us_data from https://github.com/joncutrer/geopandas-tutorial.git
-
 Abcd_data_dictionary.csv, choices_coding_nda.3.0.csv, and choices_coding_nda.4.0.csv created following process outlined by https://github.com/ABCD-STUDY/analysis-nda
 
 
