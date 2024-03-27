@@ -75,7 +75,7 @@ os.makedirs(save_dir, exist_ok = True)
 load_dir_phase1 = SAVE_DIRECTORY_PHASE1
 load_dir_phase2 = SAVE_DIRECTORY_PHASE2
 
-#usa-states-census-2014.shp from https://github.com/joncutrer/geopandas-tutorial.git
+# use cb_2014_us_state_20m.zip from https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2014.html
 load_us_geo_template = GEO_DATA
 
 #load data
@@ -1296,6 +1296,9 @@ for us_state in states:
 #US geoplotting figure
 #import geopandas state plotting data
 states = geopandas.read_file(load_us_geo_template)
+
+#ignore 'Alaska', 'Hawaii', 'Puerto Rico' for plotting
+states = states[~states['NAME'].isin(['Alaska', 'Hawaii', 'Puerto Rico'])]
 
 #To make the map look a little more familiar lets reproject it's coordinates to **Mercator**.
 states = states.to_crs("EPSG:3395")
