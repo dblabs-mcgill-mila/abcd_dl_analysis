@@ -20,4 +20,4 @@ ANALYSIS_NDA_OUTPUTS = f'{root}/ABCD_RDS_4'
 #geoplot data
 
 # use cb_2014_us_state_20m.zip from https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.2014.html
-GEO_DATA = f'{root}/cb_2014_us_state_20m'
+GEO_DATA = f'{root}/geo_us_data'
