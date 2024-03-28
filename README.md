@@ -4,7 +4,12 @@ This repository contains all analyses associated with our paper <>.
 
 Please cite the paper: 
 
-## Resources and Scripts
+## Resources
+
+- The final model is saved in /phase2_outputs/cvae_model_final/ folder, architecture comparison figures are in the /phase2_outputs folder
+- All main and supplementary tables and figures are saved in the /phase3_outputs folder
+
+## Scripts
 
 This study utilizes all non-imaging instruments as outlined in "Release Notes: Adolescent Brain Cognitive Development Study (ABCD) Data Release 4.0" under "Table of shared non-imaging instruments": https://nda.nih.gov/static/docs/NDA4.0ReleaseNotesABCD.pdf
 
