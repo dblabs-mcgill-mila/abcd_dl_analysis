@@ -6,7 +6,7 @@
 # Ignore large file outputs #
 #############################
 /phase1_outputs
-/phase2_outputs
+phase2_outputs/*
 
 # Retain final trained model and key figures#
 #############################################

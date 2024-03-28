@@ -1,0 +1,5 @@
+training reconstruction loss (eval): 830.3218994140625
+validation reconstruction loss (eval): 855.4386596679688
+test reconstruction loss (eval): 865.6129760742188
+number of epochs: [195]
+
