@@ -1,0 +1,31 @@
+,description,Latent_Dim30
+"('ethnicity', '')_4.0",Race Ethnicity (Child),-0.12682492818666272
+"('genetic_af_east_asian', 'baseline_year_1_arm_1')",,-0.10135648380845892
+"('reshist_addr1_adi_b138', 'baseline_year_1_arm_1')",,0.5640158446298188
+"('reshist_addr1_adi_edu_h', 'baseline_year_1_arm_1')",,-0.4164775317150541
+"('reshist_addr1_adi_nplumb', 'baseline_year_1_arm_1')",,0.17084385867685375
+"('reshist_addr1_adi_ntel', 'baseline_year_1_arm_1')",,0.2801262691182179
+"('reshist_addr1_adi_rent', 'baseline_year_1_arm_1')",,-0.4434229599024416
+"('reshist_addr1_adi_unemp', 'baseline_year_1_arm_1')",,0.4455007480954031
+"('reshist_addr1_coi_ed_ecenrol', 'baseline_year_1_arm_1')",,-0.20323095198574057
+"('reshist_addr1_coi_he_food', 'baseline_year_1_arm_1')",,0.3450114263597938
+"('reshist_addr1_coi_he_hlthins', 'baseline_year_1_arm_1')",,-0.36593912434985243
+"('reshist_addr1_coi_r_he_stt', 'baseline_year_1_arm_1')",,-0.41123811648011854
+"('reshist_addr1_coi_se_emprat', 'baseline_year_1_arm_1')",,-0.4049507938502329
+"('reshist_addr1_coi_zed_ecenrol', 'baseline_year_1_arm_1')",,-0.1908325333508491
+"('reshist_addr1_coi_zhe_hlthins', 'baseline_year_1_arm_1')",,-0.3801040436402846
+"('reshist_addr1_leadrisk', 'baseline_year_1_arm_1')",,0.33048610950966134
+"('reshist_addr1_opat_kfrpp_p100', 'baseline_year_1_arm_1')",,-0.3101597489465315
+"('reshist_addr1_opat_kfrpp_p75', 'baseline_year_1_arm_1')",,-0.42790830561502385
+"('reshist_addr1_opat_kfrppavg_se', 'baseline_year_1_arm_1')",,-0.2190219586647838
+"('reshist_addr1_svi_sin_20142018', 'baseline_year_1_arm_1')",,0.4299189463627027
+"('reshist_addr1_svi_tot_20142018', 'baseline_year_1_arm_1')",,0.5076993218482585
+"('reshist_addr1_svi_veh_20142018', 'baseline_year_1_arm_1')",,0.3893279304374447
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_10.0",Residential history years of residence 1,-0.1090491012882122
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_2.0",Residential history years of residence 1,0.0909142741756825
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_4.0",Residential history years of residence 1,0.05774087410298888
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_7.0",Residential history years of residence 1,-0.10474341675451208
+"('reshist_state_immigrant_factor', 'baseline_year_1_arm_1')",,0.15423326343818242
+"('reshist_state_mj_laws', '1_year_follow_up_y_arm_1')_2.0",Marijuana state law during the same year as the assessment,0.10255395579018523
+"('reshist_state_mj_laws', 'baseline_year_1_arm_1')_1.0",Marijuana state law during the same year as the assessment,-0.11948674024373412
+"('reshist_state_mj_laws', 'baseline_year_1_arm_1')_4.0",Marijuana state law during the same year as the assessment,0.12395992408885838

@@ -1,0 +1,103 @@
+,description,Latent_Dim30
+"('reshist_addr1_coi_zse_ecres', 'baseline_year_1_arm_1')",,-0.5891276223780298
+"('reshist_addr1_coi_z_coi_nat', 'baseline_year_1_arm_1')",,-0.5701879089901555
+"('reshist_addr1_coi_z_se_nat', 'baseline_year_1_arm_1')",,-0.5657409525937421
+"('reshist_addr1_adi_b138', 'baseline_year_1_arm_1')",,0.5640158446298188
+"('reshist_addr1_coi_se_public', 'baseline_year_1_arm_1')",,0.5573414537640123
+"('reshist_addr1_leadrisk_poverty', 'baseline_year_1_arm_1')",,0.5557487309397398
+"('reshist_addr1_coi_zse_povrate', 'baseline_year_1_arm_1')",,-0.5556515805281043
+"('reshist_addr1_adi_income', 'baseline_year_1_arm_1')",,-0.5515534223326779
+"('reshist_addr1_coi_se_povrate', 'baseline_year_1_arm_1')",,0.5513582981758113
+"('reshist_addr1_coi_r_coi_stt', 'baseline_year_1_arm_1')",,-0.5483338203834462
+"('reshist_addr1_svi_th1_20142018', 'baseline_year_1_arm_1')",,0.5475249902190841
+"('reshist_addr1_coi_r_coi_nat', 'baseline_year_1_arm_1')",,-0.5464819655575524
+"('reshist_addr1_svi_cap_20142018', 'baseline_year_1_arm_1')",,0.5448006747967797
+"('reshist_addr1_coi_zse_public', 'baseline_year_1_arm_1')",,-0.5404295156612028
+"('reshist_addr1_coi_r_se_nat', 'baseline_year_1_arm_1')",,-0.5395591998162993
+"('reshist_addr1_opat_kfrpp_avg', 'baseline_year_1_arm_1')",,-0.5348777828126217
+"('reshist_addr1_svi_pov_20142018', 'baseline_year_1_arm_1')",,0.5339839762206603
+"('reshist_addr1_coi_c5_coi_nat', 'baseline_year_1_arm_1')",,-0.5337506665066396
+"('reshist_addr1_coi_se_mhe', 'baseline_year_1_arm_1')",,-0.5335305586809915
+"('reshist_addr1_coi_zse_mhe', 'baseline_year_1_arm_1')",,-0.5324002640722209
+"('reshist_addr1_coi_c5_se_nat', 'baseline_year_1_arm_1')",,-0.5311477476529349
+"('reshist_addr1_adi_pov', 'baseline_year_1_arm_1')",,0.5299859354073742
+"('reshist_addr1_coi_c5_se_stt', 'baseline_year_1_arm_1')",,-0.5247492627776074
+"('reshist_addr1_coi_r_se_stt', 'baseline_year_1_arm_1')",,-0.5205966184533272
+"('reshist_addr1_coi_c5_coi_stt', 'baseline_year_1_arm_1')",,-0.5151144978843342
+"('reshist_addr1_coi_zse_single', 'baseline_year_1_arm_1')",,-0.5128582505579893
+"('reshist_addr1_adi_sp', 'baseline_year_1_arm_1')",,0.5094639044178004
+"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')",,0.509445053392279
+"('reshist_addr1_svi_tot_20142018', 'baseline_year_1_arm_1')",,0.5076993218482585
+"('reshist_addr1_adi_in_dis', 'baseline_year_1_arm_1')",,0.5070496243821678
+"('reshist_addr1_coi_ed_attain', 'baseline_year_1_arm_1')",,-0.5001361953111421
+"('reshist_addr1_coi_se_single', 'baseline_year_1_arm_1')",,0.49855218079860786
+"('reshist_addr1_coi_zse_occ', 'baseline_year_1_arm_1')",,-0.4977507349307189
+"('reshist_addr1_coi_se_occ', 'baseline_year_1_arm_1')",,-0.49563083067050406
+"('reshist_addr1_coi_zed_attain', 'baseline_year_1_arm_1')",,-0.4907212746241832
+"('reshist_addr1_opat_kfrpp_p50', 'baseline_year_1_arm_1')",,-0.4769766228367841
+"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')",,-0.47141373235883227
+"('reshist_addr1_coi_r_ed_nat', 'baseline_year_1_arm_1')",,-0.46993499375854464
+"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')",,-0.46679881054481664
+"('reshist_addr1_adi_wsum', 'baseline_year_1_arm_1')",,0.4666206317242219
+"('reshist_addr1_opat_kfrpp_p25', 'baseline_year_1_arm_1')",,-0.460796582805881
+"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')",,-0.4600445005184283
+"('reshist_addr1_svi_hs_20142018', 'baseline_year_1_arm_1')",,0.4596681108406906
+"('reshist_addr1_coi_zed_schpov', 'baseline_year_1_arm_1')",,-0.4581503091249506
+"('reshist_addr1_adi_mortg', 'baseline_year_1_arm_1')",,-0.4456200495722394
+"('reshist_addr1_adi_unemp', 'baseline_year_1_arm_1')",,0.4455007480954031
+"('reshist_addr1_adi_rent', 'baseline_year_1_arm_1')",,-0.4434229599024416
+"('reshist_addr1_coi_ed_schpov', 'baseline_year_1_arm_1')",,0.44329315898066757
+"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')",,-0.44097705701445944
+"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",,-0.43763731223576935
+"('reshist_addr1_coi_r_he_nat', 'baseline_year_1_arm_1')",,-0.4358333265281144
+"('reshist_addr1_adi_ncar', 'baseline_year_1_arm_1')",,0.4338873850018283
+"('reshist_addr1_adi_home_v', 'baseline_year_1_arm_1')",,-0.4336003230695887
+"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",,0.43208233090329035
+"('reshist_addr1_coi_zed_math', 'baseline_year_1_arm_1')",,-0.4302276490285644
+"('reshist_addr1_svi_sin_20142018', 'baseline_year_1_arm_1')",,0.4299189463627027
+"('reshist_addr1_coi_z_he_nat', 'baseline_year_1_arm_1')",,-0.42829605118671477
+"('reshist_addr1_opat_kfrpp_p75', 'baseline_year_1_arm_1')",,-0.42790830561502385
+"('reshist_addr1_svi_dis_20142018', 'baseline_year_1_arm_1')",,0.41975322076707533
+"('reshist_addr1_coi_ed_math', 'baseline_year_1_arm_1')",,-0.4191143058855603
+"('reshist_addr1_adi_edu_h', 'baseline_year_1_arm_1')",,-0.4164775317150541
+"('reshist_addr1_coi_c5_he_nat', 'baseline_year_1_arm_1')",,-0.41523965276072117
+"('reshist_addr1_coi_r_he_stt', 'baseline_year_1_arm_1')",,-0.41123811648011854
+"('reshist_addr1_coi_zse_emprat', 'baseline_year_1_arm_1')",,-0.4108277135773983
+"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')",,-0.40867211726608943
+"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",,-0.40684859976264914
+"('reshist_addr1_coi_se_emprat', 'baseline_year_1_arm_1')",,-0.4049507938502329
+"('reshist_addr1_coi_c5_he_stt', 'baseline_year_1_arm_1')",,-0.40491014657246166
+"('reshist_addr1_svi_veh_20142018', 'baseline_year_1_arm_1')",,0.3893279304374447
+"('reshist_addr1_adi_home_o', 'baseline_year_1_arm_1')",,-0.385995715343881
+"('reshist_addr1_coi_zhe_hlthins', 'baseline_year_1_arm_1')",,-0.3801040436402846
+"('reshist_addr1_coi_zse_home', 'baseline_year_1_arm_1')",,-0.37013760973320753
+"('reshist_addr1_coi_he_hlthins', 'baseline_year_1_arm_1')",,-0.36593912434985243
+"('reshist_addr1_coi_he_vacancy', 'baseline_year_1_arm_1')",,0.3617917366445008
+"('reshist_addr1_coi_se_home', 'baseline_year_1_arm_1')",,-0.36150735713802373
+"('reshist_addr1_svi_emp_20142018', 'baseline_year_1_arm_1')",,0.35770034335897244
+"('reshist_addr1_coi_zhe_vacancy', 'baseline_year_1_arm_1')",,-0.35597400650760525
+"('reshist_addr1_coi_he_food', 'baseline_year_1_arm_1')",,0.3450114263597938
+"('reshist_addr1_leadrisk', 'baseline_year_1_arm_1')",,0.33048610950966134
+"('reshist_addr1_coi_zhe_food', 'baseline_year_1_arm_1')",,-0.3125395857308749
+"('reshist_addr1_opat_kfrpp_p100', 'baseline_year_1_arm_1')",,-0.3101597489465315
+"('genetic_af_african', 'baseline_year_1_arm_1')",,0.29970719310930716
+"('reshist_addr1_svi_th4_20142018', 'baseline_year_1_arm_1')",,0.2850427502305142
+"('reshist_addr1_adi_ntel', 'baseline_year_1_arm_1')",,0.2801262691182179
+"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",,0.2353194844141279
+"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')",,-0.22313740007580846
+"('reshist_addr1_opat_kfrppavg_se', 'baseline_year_1_arm_1')",,-0.2190219586647838
+"('reshist_addr1_coi_ed_ecenrol', 'baseline_year_1_arm_1')",,-0.20323095198574057
+"('reshist_addr1_coi_zed_ecenrol', 'baseline_year_1_arm_1')",,-0.1908325333508491
+"('acs_raked_propensity_score', 'baseline_year_1_arm_1')",,0.18794169366650312
+"('reshist_addr1_adi_nplumb', 'baseline_year_1_arm_1')",,0.17084385867685375
+"('acs_raked_propensity_score', '1_year_follow_up_y_arm_1')",,0.16809905896858443
+"('reshist_state_immigrant_factor', 'baseline_year_1_arm_1')",,0.15423326343818242
+"('ethnicity', '')_4.0",Race Ethnicity (Child),-0.12682492818666272
+"('reshist_state_mj_laws', 'baseline_year_1_arm_1')_4.0",Marijuana state law during the same year as the assessment,0.12395992408885838
+"('reshist_state_mj_laws', 'baseline_year_1_arm_1')_1.0",Marijuana state law during the same year as the assessment,-0.11948674024373412
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_10.0",Residential history years of residence 1,-0.1090491012882122
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_7.0",Residential history years of residence 1,-0.10474341675451208
+"('reshist_state_mj_laws', '1_year_follow_up_y_arm_1')_2.0",Marijuana state law during the same year as the assessment,0.10255395579018523
+"('genetic_af_east_asian', 'baseline_year_1_arm_1')",,-0.10135648380845892
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_2.0",Residential history years of residence 1,0.0909142741756825
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_4.0",Residential history years of residence 1,0.05774087410298888

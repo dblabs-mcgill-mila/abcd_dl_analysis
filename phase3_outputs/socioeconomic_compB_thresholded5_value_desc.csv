@@ -1,0 +1,20 @@
+,description,Latent_Dim80
+"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')",,0.3731069253860202
+"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')",,0.35769924519557117
+"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')",,0.3569843051515047
+"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')",,0.35538697073902176
+"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')",,-0.3389913238906653
+"('reshist_addr1_svi_dis_20142018', 'baseline_year_1_arm_1')",,-0.3112656920454607
+"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",,0.29899695932190606
+"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')",,0.2882130649364561
+"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",,-0.2831127344821088
+"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",,0.27681098146383337
+"('reshist_addr1_coi_ed_apenr', 'baseline_year_1_arm_1')",,0.22738897440272504
+"('reshist_addr1_coi_zhe_food', 'baseline_year_1_arm_1')",,0.22619991719291754
+"('reshist_addr1_coi_zed_apenr', 'baseline_year_1_arm_1')",,0.22301828595134962
+"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",,-0.18821733225839243
+"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')",,0.18632916066982752
+"('reshist_addr1_coi_ed_college', 'baseline_year_1_arm_1')",,0.14376139081906594
+"('reshist_addr1_coi_he_heat', 'baseline_year_1_arm_1')",,-0.12690434052236432
+"('ethnicity', '')_5.0",Race Ethnicity (Child),-0.0830217902962119
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_3.0",Residential history years of residence 1,-0.06883791467832681

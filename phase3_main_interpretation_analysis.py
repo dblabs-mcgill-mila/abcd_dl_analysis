@@ -1260,6 +1260,7 @@ states = cvae_scores_ses_a_b_d_e_state.state.unique()
 
 for us_state in states:
     # Create a density plot using Seaborn
+    plt.figure(figsize=(8, 8))
     sns.set(style="white")
     sns.kdeplot(cvae_scores_ses_a_b_d_e_state[cvae_scores_ses_a_b_d_e_state.state == us_state], common_norm = True, fill=True, palette = comp_colors, legend = False)
     #common_norm = True scale each conditional density by the number of observations such that the total area under all densities sums to 1

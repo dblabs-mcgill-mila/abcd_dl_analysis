@@ -1,0 +1,10 @@
+,description,Latent_Dim93
+"('ethnicity', '')_2.0",Race Ethnicity (Child),-0.3365039481892869
+"('genetic_af_european', 'baseline_year_1_arm_1')",,0.4008767239878562
+"('reshist_addr1_coi_he_rsei', 'baseline_year_1_arm_1')",,-0.11739218294536555
+"('reshist_addr1_coi_zhe_rsei', 'baseline_year_1_arm_1')",,0.12875262274143073
+"('reshist_addr1_coi_zse_jobprox', 'baseline_year_1_arm_1')",,0.1258591917496263
+"('reshist_addr1_pm25', 'baseline_year_1_arm_1')",,-0.16587813128246093
+"('reshist_addr1_pm252016aa', 'baseline_year_1_arm_1')",,-0.18365581069605727
+"('reshist_addr1_years', 'baseline_year_1_arm_1')_5.0",Residential history years of residence 1,-0.053013161170736685
+"('reshist_state_racism_factor', 'baseline_year_1_arm_1')",,-0.1787567034152736
