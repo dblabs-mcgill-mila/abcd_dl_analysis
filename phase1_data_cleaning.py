@@ -817,13 +817,15 @@ col_desc_map_df = pd.DataFrame(data=abcd_df_cleaned_col_descript, index = abcd_d
 
 #save col_desv_map_df to csv
 col_desc_map_df.to_csv(f'{save_dir}/abcd_cleaned_col_desc_map.csv')
+
+
 baseline_df_dict={}
 screener_df_dict={}
 month6_df_dict={}
 year1_df_dict={}
 baseline_screen_6_1yr_df_dict={}
 
-for cleaned_df, i in zip(abcd_df_cleaned_dropped_list, range(1,len(abcd_df_cleaned_dropped_list)+1)): #loop through 13 cleaned dfs and create event specific dataframe
+for cleaned_df, i in zip(abcd_df_cleaned_dropped_list, range(1,len(abcd_df_cleaned_dropped_list)+1)): #loop through cleaned dfs and create event specific dataframe
     #add back in sex, ethnicity, site columns
     abcd_df_cleaned_sex = cleaned_df.loc[:, cleaned_df.columns.astype('string').str.contains('sex_official')]
     abcd_df_cleaned_eth = cleaned_df.loc[:, cleaned_df.columns.astype('string').str.contains('ethnicity')]
@@ -838,18 +840,18 @@ for cleaned_df, i in zip(abcd_df_cleaned_dropped_list, range(1,len(abcd_df_clean
 #save with name as "cleaned" for use in CVAE
 
 baseline_screen_6_1yr_df_dict[1].to_csv(f'{save_dir}/baseline_screen_6_1yr_z_4_cleaned.csv')
+
+
 #PCA (only events with ~all subjects) using |z|=4
-
-
 
 #make instance of pca for baseline + screener + 6 month + 1 year events
 pca_base_screen_6_1yr = PCA(n_components=5, random_state= 0)
 
 #fit model with training data and apply dim reduction on training data
 pc_base_screen_6_1yr = pca_base_screen_6_1yr.fit_transform(baseline_screen_6_1yr_df_dict[1])
-#identify which features are most responsible for each PC
+#link description of phenotypes to loadings
 
-loadings_base_screen_6_1yr = pd.DataFrame(pca_base_screen_6_1yr.components_.T, columns=['PC1', 'PC2', 'PC3', 'PC4', 'PC5'], index= baseline_screen_6_1yr_df_dict[1].columns)
+loadings_base_screen_6_1yr = pd.DataFrame(pca_base_screen_6_1yr.components_.T, columns=['PC1', 'PC2', 'PC3', 'PC4', 'PC5'], index= baseline_screen_6_1yr_df_dict[1].columns.astype('string'))
 loadings_base_screen_6_1yr = pd.merge(loadings_base_screen_6_1yr, col_desc_map_df.description, how='left', left_index=True, right_index=True)
 
 #save

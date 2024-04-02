@@ -203,8 +203,7 @@ category_order[category_order == 'Task Based'] = 'Neuropsychological Tests'
 #this segment is to do cross correlation between cvae latent variable "loadings" and PCA component loadings
 # also self correlates cvae latent variables and projection of data into PCA latent space
 
-#use full data minus label columns
-X = data.drop(data.iloc[:,7:28], axis = 1)
+
 
 if model.pca_input == True:
     #add site columns back to their original column index position to be included in cvae loadings
