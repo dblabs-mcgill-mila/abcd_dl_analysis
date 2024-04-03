@@ -1,78 +1,78 @@
 ,description,Latent_Dim93
-"('reshist_addr1_coi_r_ed_nat', 'baseline_year_1_arm_1')",,0.4542973335128422
-"('reshist_addr1_coi_z_coi_nat', 'baseline_year_1_arm_1')",,0.44791878325396234
-"('reshist_addr1_coi_r_coi_nat', 'baseline_year_1_arm_1')",,0.4424121918412027
-"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')",,0.43789226653228025
-"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')",,0.4361623755964537
-"('reshist_addr1_coi_r_coi_stt', 'baseline_year_1_arm_1')",,0.4327841590665486
-"('reshist_addr1_coi_c5_coi_nat', 'baseline_year_1_arm_1')",,0.4321837578089747
-"('reshist_addr1_coi_z_se_nat', 'baseline_year_1_arm_1')",,0.4306281352914374
-"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')",,0.4286622105293633
-"('reshist_addr1_coi_c5_coi_stt', 'baseline_year_1_arm_1')",,0.42817861369854743
-"('reshist_addr1_coi_ed_schpov', 'baseline_year_1_arm_1')",,-0.4281033923883197
-"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')",,0.4166388392676256
-"('reshist_addr1_coi_c5_se_nat', 'baseline_year_1_arm_1')",,0.41590474228670804
-"('reshist_addr1_coi_zse_ecres', 'baseline_year_1_arm_1')",,0.41511613974793926
-"('reshist_addr1_coi_zed_schpov', 'baseline_year_1_arm_1')",,0.41288054701395316
-"('reshist_addr1_coi_r_se_nat', 'baseline_year_1_arm_1')",,0.4114321746628351
-"('reshist_addr1_svi_cap_20142018', 'baseline_year_1_arm_1')",,-0.40725469899512223
-"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')",,-0.40618429278391427
-"('reshist_addr1_coi_r_se_stt', 'baseline_year_1_arm_1')",,0.4051535455832005
-"('genetic_af_european', 'baseline_year_1_arm_1')",,0.4008767239878562
-"('reshist_addr1_svi_th1_20142018', 'baseline_year_1_arm_1')",,-0.39800928687310155
-"('reshist_addr1_coi_ed_math', 'baseline_year_1_arm_1')",,0.3956256265231591
-"('reshist_addr1_adi_income', 'baseline_year_1_arm_1')",,0.3939670400187366
-"('reshist_addr1_coi_zed_math', 'baseline_year_1_arm_1')",,0.3907127308511262
-"('reshist_addr1_coi_zse_occ', 'baseline_year_1_arm_1')",,0.3887528366689393
-"('reshist_addr1_coi_se_single', 'baseline_year_1_arm_1')",,-0.3869257356033112
-"('reshist_addr1_coi_r_he_nat', 'baseline_year_1_arm_1')",,0.38606795189679416
-"('reshist_addr1_coi_ed_attain', 'baseline_year_1_arm_1')",,0.3854526587515325
-"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",,0.38457956215396294
-"('genetic_af_african', 'baseline_year_1_arm_1')",,-0.38409857865941016
-"('reshist_addr1_opat_kfrpp_avg', 'baseline_year_1_arm_1')",,0.3834266151964164
-"('reshist_addr1_leadrisk_poverty', 'baseline_year_1_arm_1')",,-0.38272484657101696
-"('reshist_addr1_coi_zse_public', 'baseline_year_1_arm_1')",,0.3815887491230868
-"('reshist_addr1_adi_sp', 'baseline_year_1_arm_1')",,-0.38146619800251075
-"('reshist_addr1_coi_se_public', 'baseline_year_1_arm_1')",,-0.3810496968754527
-"('reshist_addr1_coi_zed_attain', 'baseline_year_1_arm_1')",,0.3791152966707945
-"('reshist_addr1_svi_pov_20142018', 'baseline_year_1_arm_1')",,-0.3777882266702558
-"('reshist_addr1_coi_zse_povrate', 'baseline_year_1_arm_1')",,0.37762030781880285
-"('reshist_addr1_adi_pov', 'baseline_year_1_arm_1')",,-0.37716601529029115
-"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')",,0.3741825488093038
-"('reshist_addr1_coi_zse_single', 'baseline_year_1_arm_1')",,0.3733835087301893
-"('reshist_addr1_coi_se_povrate', 'baseline_year_1_arm_1')",,-0.37301845600039907
-"('reshist_addr1_coi_c5_se_stt', 'baseline_year_1_arm_1')",,0.3695825715939064
-"('reshist_addr1_coi_zse_mhe', 'baseline_year_1_arm_1')",,0.3683786812933966
+"('reshist_addr1_coi_r_ed_nat', 'baseline_year_1_arm_1')","Child Opportunity Scores, education domain, nationally-normed: Nationally-normed Child Opportunity Scores (from 1 to 100) for the education domain.",0.4542973335128422
+"('reshist_addr1_coi_z_coi_nat', 'baseline_year_1_arm_1')","Z-scores, overall COI, nationally-normed: Weighted average of three domain averaged z-scores (z_ED_nat, z_HE_nat, z_SE_nat), nationally normed.",0.44791878325396234
+"('reshist_addr1_coi_r_coi_nat', 'baseline_year_1_arm_1')","Child Opportunity Scores, overall COI, nationally-normed: Nationally-normed Child Opportunity Scores (from 1 to 100) for the overall COI.",0.4424121918412027
+"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')","Child Opportunity Scores, education domain, state-normed: State-normed Child Opportunity Scores (from 1 to 100) for the education domain.",0.43789226653228025
+"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')","Z-scores, education domain, nationally-normed: Weighted average of education domain component indicator z-scores, nationally normed.",0.4361623755964537
+"('reshist_addr1_coi_r_coi_stt', 'baseline_year_1_arm_1')","Child Opportunity Scores, overall COI, state-normed: State-normed Child Opportunity Scores (from 1 to 100) for the overall COI.",0.4327841590665486
+"('reshist_addr1_coi_c5_coi_nat', 'baseline_year_1_arm_1')","Child Opportunity Levels, overall COI, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the overall COI.",0.4321837578089747
+"('reshist_addr1_coi_z_se_nat', 'baseline_year_1_arm_1')","Z-scores, social and economic domain, nationally-normed: Weighted average of social and economic domain component indicator z-scores, nationally normed.",0.4306281352914374
+"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')","Child Opportunity Levels, education domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the education domain.",0.4286622105293633
+"('reshist_addr1_coi_c5_coi_stt', 'baseline_year_1_arm_1')","Child Opportunity Levels, overall COI, state-normed: State-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the overall COI.",0.42817861369854743
+"('reshist_addr1_coi_ed_schpov', 'baseline_year_1_arm_1')",Education Domain: School poverty,-0.4281033923883197
+"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')","Child Opportunity Levels, education domain, state-normed: State-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the education domain.",0.4166388392676256
+"('reshist_addr1_coi_c5_se_nat', 'baseline_year_1_arm_1')","Child Opportunity Levels, social and economic domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the social and economic domain.",0.41590474228670804
+"('reshist_addr1_coi_zse_ecres', 'baseline_year_1_arm_1')","Economic resource index: combines poverty rate, public assistance rate, homeownership rate, high skill employment, and median household income, transformed to z-scores.",0.41511613974793926
+"('reshist_addr1_coi_zed_schpov', 'baseline_year_1_arm_1')","Educational Domain Teacher experience: Percentage students in elementary schools eligible for free or reduced-price lunches, transformed to z-scores and multiplied by -1.",0.41288054701395316
+"('reshist_addr1_coi_r_se_nat', 'baseline_year_1_arm_1')","Child Opportunity Scores, social and economic domain, nationally-normed: Nationally-normed Child Opportunity Scores (from 1 to 100) for the social and economic domain.",0.4114321746628351
+"('reshist_addr1_svi_cap_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile per capita income subcomponent) at primary residential address (ACS 2014-2018 5 yr avg),-0.40725469899512223
+"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')","Residential history derived - Area Deprivation Index: national percentiles, higher means higher value of ADI 1",-0.40618429278391427
+"('reshist_addr1_coi_r_se_stt', 'baseline_year_1_arm_1')","Child Opportunity Scores, social and economic domain, state-normed: State-normed Child Opportunity Scores (from 1 to 100) for the social and economic domain.",0.4051535455832005
+"('genetic_af_european', 'baseline_year_1_arm_1')",Proportion of European ancestry,0.4008767239878562
+"('reshist_addr1_svi_th1_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile socioeconomic theme) at primary residential address (ACS 2014-2018 5 yr avg),-0.39800928687310155
+"('reshist_addr1_coi_ed_math', 'baseline_year_1_arm_1')",Education Domain: Third grade math proficiency,0.3956256265231591
+"('reshist_addr1_adi_income', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Median family income 1,0.3939670400187366
+"('reshist_addr1_coi_zed_math', 'baseline_year_1_arm_1')","Educational Domain Third grade reading proficiency: Percentage third graders scoring proficient on standardized math tests, converted to NAEP scale score points, transformed to z-scores.",0.3907127308511262
+"('reshist_addr1_coi_zse_occ', 'baseline_year_1_arm_1')",Social and Economic Domain: High-skill employment z-score,0.3887528366689393
+"('reshist_addr1_coi_se_single', 'baseline_year_1_arm_1')",Social and Economic Domain: Single-headed households,-0.3869257356033112
+"('reshist_addr1_coi_r_he_nat', 'baseline_year_1_arm_1')","Child Opportunity Scores, health and environment domain, nationally-normed: Nationally-normed Child Opportunity Scores (from 1 to 100) for the health and environment domain.",0.38606795189679416
+"('reshist_addr1_coi_ed_attain', 'baseline_year_1_arm_1')",Education Domain: Adult educational attainment,0.3854526587515325
+"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",Education Domain: Third grade reading proficiency,0.38457956215396294
+"('genetic_af_african', 'baseline_year_1_arm_1')",Proportion of African ancestry,-0.38409857865941016
+"('reshist_addr1_opat_kfrpp_avg', 'baseline_year_1_arm_1')",Residential history derived - Opportunity Atlas Mean outcome for all children,0.3834266151964164
+"('reshist_addr1_leadrisk_poverty', 'baseline_year_1_arm_1')",Percentage of individuals below -125 percent of poverty level in census tract of primary residential address,-0.38272484657101696
+"('reshist_addr1_coi_zse_public', 'baseline_year_1_arm_1')",Social and Economic Domain: Public assistance rate z-score,0.3815887491230868
+"('reshist_addr1_adi_sp', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Percentage of single 1,-0.38146619800251075
+"('reshist_addr1_coi_se_public', 'baseline_year_1_arm_1')",Social and Economic Domain: Public assistance rate,-0.3810496968754527
+"('reshist_addr1_coi_zed_attain', 'baseline_year_1_arm_1')","Educational Domain College enrollment in nearby institutions: Percentage adults ages 25 and over with a college degree or higher, transformed to z-scores.",0.3791152966707945
+"('reshist_addr1_svi_pov_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile % below poverty subcomponent) at primary residential address (ACS 2014-2018 5 yr avg),-0.3777882266702558
+"('reshist_addr1_coi_zse_povrate', 'baseline_year_1_arm_1')",Social and Economic Domain: Poverty rate z-score,0.37762030781880285
+"('reshist_addr1_adi_pov', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Percentage of families below the poverty level 1,-0.37716601529029115
+"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')","Educational Domain School poverty: Percentage third graders scoring proficient on standardized reading tests, converted to NAEP scale score points, transformed to z-scores.",0.3741825488093038
+"('reshist_addr1_coi_zse_single', 'baseline_year_1_arm_1')","Single-headed households: Percentage family households that are single-parent headed, transformed to z-scores and multiplied by -1.",0.3733835087301893
+"('reshist_addr1_coi_se_povrate', 'baseline_year_1_arm_1')",Social and Economic Domain: Poverty rate,-0.37301845600039907
+"('reshist_addr1_coi_c5_se_stt', 'baseline_year_1_arm_1')","Child Opportunity Levels, social and economic domain, state-normed: State-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the social and economic domain.",0.3695825715939064
+"('reshist_addr1_coi_zse_mhe', 'baseline_year_1_arm_1')",Social and Economic Domain: Median household income z-score,0.3683786812933966
 "('ethnicity', '')_1.0",Race Ethnicity (Child),0.36742709448585614
-"('reshist_addr1_coi_se_occ', 'baseline_year_1_arm_1')",,0.3649473199534248
-"('reshist_addr1_coi_se_mhe', 'baseline_year_1_arm_1')",,0.3628498667731706
-"('reshist_addr1_coi_z_he_nat', 'baseline_year_1_arm_1')",,0.36175895292499477
-"('reshist_addr1_opat_kfrpp_p25', 'baseline_year_1_arm_1')",,0.35493446229592623
-"('reshist_addr1_svi_hs_20142018', 'baseline_year_1_arm_1')",,-0.34953888695466184
-"('reshist_addr1_adi_in_dis', 'baseline_year_1_arm_1')",,-0.3452500454845747
-"('reshist_addr1_coi_c5_he_nat', 'baseline_year_1_arm_1')",,0.34262320160754806
-"('reshist_addr1_adi_wsum', 'baseline_year_1_arm_1')",,-0.3420552543096982
-"('reshist_addr1_opat_kfrpp_p50', 'baseline_year_1_arm_1')",,0.34159826091956363
+"('reshist_addr1_coi_se_occ', 'baseline_year_1_arm_1')",Social and Economic Domain: High-skill employment,0.3649473199534248
+"('reshist_addr1_coi_se_mhe', 'baseline_year_1_arm_1')",Social and Economic Domain: Median household income,0.3628498667731706
+"('reshist_addr1_coi_z_he_nat', 'baseline_year_1_arm_1')","Z-scores, health and environment domain, nationally-normed: Weighted average of health and environment domain component indicator z-scores, nationally normed.",0.36175895292499477
+"('reshist_addr1_opat_kfrpp_p25', 'baseline_year_1_arm_1')","Residential history derived - Opportunity Atlas Mean household income rank for children whose parents were at the 25th percentile of the national income distribution. Incomes for children were measured as mean earnings in 2014-2015 when they were between the ages 31-37 at census tract level. The 25th percentile variable is what is termed as ''upward mobility'' by Chetty, et al.",0.35493446229592623
+"('reshist_addr1_svi_hs_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile % no high school diploma subcomponent) at primary residential address (ACS 2014-2018 5 yr avg),-0.34953888695466184
+"('reshist_addr1_adi_in_dis', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Income disparity defined by Singh as the log of 100 x ratio of the number of households with <10000 annual income to the number of households with >50000 annual income. 1,-0.3452500454845747
+"('reshist_addr1_coi_c5_he_nat', 'baseline_year_1_arm_1')","Child Opportunity Levels, health and environment domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the health and environment domain.",0.34262320160754806
+"('reshist_addr1_adi_wsum', 'baseline_year_1_arm_1')","Residential history derived - Area Deprivation Index: scaled weighted sum based on Kind et al., Annals of Internal Medicine, 2014 1",-0.3420552543096982
+"('reshist_addr1_opat_kfrpp_p50', 'baseline_year_1_arm_1')",Residential history derived - Opportunity Atlas Mean household income rank for children whose parents were at the 50th percentile of the national income distribution. Incomes for children were measured as mean earnings in 2014-2015 when they were between the ages 31-37 at census tract level.,0.34159826091956363
 "('ethnicity', '')_2.0",Race Ethnicity (Child),-0.3365039481892869
-"('reshist_addr1_adi_mortg', 'baseline_year_1_arm_1')",,0.3265054592221856
-"('reshist_addr1_adi_home_v', 'baseline_year_1_arm_1')",,0.32461338687953156
-"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",,0.32400125001661634
-"('reshist_addr1_coi_zse_emprat', 'baseline_year_1_arm_1')",,0.3135352656555013
-"('reshist_addr1_coi_zhe_vacancy', 'baseline_year_1_arm_1')",,0.30536056526128186
-"('reshist_addr1_coi_he_vacancy', 'baseline_year_1_arm_1')",,-0.30490203594686605
-"('reshist_addr1_coi_c5_he_stt', 'baseline_year_1_arm_1')",,0.29425634582767446
-"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",,-0.2880558384698461
-"('reshist_addr1_svi_emp_20142018', 'baseline_year_1_arm_1')",,-0.2800664393444631
-"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')",,0.22544891522616928
-"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",,-0.21580003113093463
-"('reshist_addr1_coi_zed_apenr', 'baseline_year_1_arm_1')",,0.21517737133608267
-"('reshist_addr1_coi_ed_apenr', 'baseline_year_1_arm_1')",,0.20799377558906276
-"('reshist_addr1_pm252016aa', 'baseline_year_1_arm_1')",,-0.18365581069605727
-"('reshist_state_racism_factor', 'baseline_year_1_arm_1')",,-0.1787567034152736
-"('acs_raked_propensity_score', 'baseline_year_1_arm_1')",,-0.17260346380750224
-"('reshist_addr1_pm25', 'baseline_year_1_arm_1')",,-0.16587813128246093
-"('acs_raked_propensity_score', '1_year_follow_up_y_arm_1')",,-0.16060153648870182
-"('reshist_addr1_coi_zhe_rsei', 'baseline_year_1_arm_1')",,0.12875262274143073
-"('reshist_addr1_coi_zse_jobprox', 'baseline_year_1_arm_1')",,0.1258591917496263
-"('reshist_addr1_coi_he_rsei', 'baseline_year_1_arm_1')",,-0.11739218294536555
+"('reshist_addr1_adi_mortg', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Median monthly mortgage 1,0.3265054592221856
+"('reshist_addr1_adi_home_v', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Median home value 1,0.32461338687953156
+"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",Residential history derived - Opportunity Atlas Mean household income rank for children whose parents were at the 1st percentile of the national income distribution. Incomes for children were measured as mean earnings in 2014-2015 when they were between the ages 31-37 at census tract level.,0.32400125001661634
+"('reshist_addr1_coi_zse_emprat', 'baseline_year_1_arm_1')","Employment rate: Percentage adults ages 25-54 who are employed, transformed to z-scores.",0.3135352656555013
+"('reshist_addr1_coi_zhe_vacancy', 'baseline_year_1_arm_1')","Health and Environment Domain Walkability: Percentage housing units that are vacant, transformed to z-scores and multiplied by -1.",0.30536056526128186
+"('reshist_addr1_coi_he_vacancy', 'baseline_year_1_arm_1')",Health and Environment Domain: Housing vacancy rate,-0.30490203594686605
+"('reshist_addr1_coi_c5_he_stt', 'baseline_year_1_arm_1')","Child Opportunity Levels, health and environment domain, state-normed: State-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the health and environment domain.",0.29425634582767446
+"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile household composition theme) at primary residential address (ACS 2014-2018 5 yr avg),-0.2880558384698461
+"('reshist_addr1_svi_emp_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile unemployment rate subcomponent) at primary residential address (ACS 2014-2018 5 yr avg),-0.2800664393444631
+"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')","Educational Domain Early childhood education centers: Percentage teachers in their first and second year, transformed to z-scores and multiplied by -1.",0.22544891522616928
+"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",Education Domain: Teacher experience,-0.21580003113093463
+"('reshist_addr1_coi_zed_apenr', 'baseline_year_1_arm_1')","Educational Domain Adult educational attainment: Ratio of students enrolled in at least one AP course to the number of 11th and 12th graders, transformed to z-scores.",0.21517737133608267
+"('reshist_addr1_coi_ed_apenr', 'baseline_year_1_arm_1')",Education Domain: Advanced Placement course enrollment,0.20799377558906276
+"('reshist_addr1_pm252016aa', 'baseline_year_1_arm_1')",Residential history derived - annual average of PM 2.5 in 2016 at primary residential address at 1x1km2,-0.18365581069605727
+"('reshist_state_racism_factor', 'baseline_year_1_arm_1')",State level indicators of racism from survey and implicit bias measures and state level structural variables,-0.1787567034152736
+"('acs_raked_propensity_score', 'baseline_year_1_arm_1')","Imputed raked propensity weight. The raked propensity weight merges the ACS and ABCD data (with missing data imputed), estimates the propensity model, computes and scales/trims the propensity weights and finally rakes the scaled weights to final ACS control totals by age, sex and race/ethnicity.",-0.17260346380750224
+"('reshist_addr1_pm25', 'baseline_year_1_arm_1')",Residential history derived - annual average of PM 2.5 at 10x10km2 1,-0.16587813128246093
+"('acs_raked_propensity_score', '1_year_follow_up_y_arm_1')","Imputed raked propensity weight. The raked propensity weight merges the ACS and ABCD data (with missing data imputed), estimates the propensity model, computes and scales/trims the propensity weights and finally rakes the scaled weights to final ACS control totals by age, sex and race/ethnicity.",-0.16060153648870182
+"('reshist_addr1_coi_zhe_rsei', 'baseline_year_1_arm_1')","Industrial pollutants in air, water or soil: Index of toxic chemicals released by industrial facilities, converted to natural log units, transformed to z-scores and multiplied by -1.",0.12875262274143073
+"('reshist_addr1_coi_zse_jobprox', 'baseline_year_1_arm_1')","Commute duration: Percentage workers commuting more than one hour one way, transformed to z-scores and multiplied by -1.",0.1258591917496263
+"('reshist_addr1_coi_he_rsei', 'baseline_year_1_arm_1')","Health and Environment Domain: Industrial pollutants in air, water or soil",-0.11739218294536555
 "('reshist_addr1_years', 'baseline_year_1_arm_1')_5.0",Residential history years of residence 1,-0.053013161170736685

@@ -1,20 +1,20 @@
 ,description,Latent_Dim80
-"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')",,0.3731069253860202
-"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')",,0.35769924519557117
-"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')",,0.3569843051515047
-"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')",,0.35538697073902176
-"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')",,-0.3389913238906653
-"('reshist_addr1_svi_dis_20142018', 'baseline_year_1_arm_1')",,-0.3112656920454607
-"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",,0.29899695932190606
-"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')",,0.2882130649364561
-"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",,-0.2831127344821088
-"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",,0.27681098146383337
-"('reshist_addr1_coi_ed_apenr', 'baseline_year_1_arm_1')",,0.22738897440272504
-"('reshist_addr1_coi_zhe_food', 'baseline_year_1_arm_1')",,0.22619991719291754
-"('reshist_addr1_coi_zed_apenr', 'baseline_year_1_arm_1')",,0.22301828595134962
-"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",,-0.18821733225839243
-"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')",,0.18632916066982752
-"('reshist_addr1_coi_ed_college', 'baseline_year_1_arm_1')",,0.14376139081906594
-"('reshist_addr1_coi_he_heat', 'baseline_year_1_arm_1')",,-0.12690434052236432
+"('reshist_addr1_coi_z_ed_nat', 'baseline_year_1_arm_1')","Z-scores, education domain, nationally-normed: Weighted average of education domain component indicator z-scores, nationally normed.",0.3731069253860202
+"('reshist_addr1_coi_c5_ed_stt', 'baseline_year_1_arm_1')","Child Opportunity Levels, education domain, state-normed: State-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the education domain.",0.35769924519557117
+"('reshist_addr1_coi_c5_ed_nat', 'baseline_year_1_arm_1')","Child Opportunity Levels, education domain, nationally-normed: Nationally-normed Child Opportunity Levels (from ''very low'' to ''very high'') for the education domain.",0.3569843051515047
+"('reshist_addr1_coi_r_ed_stt', 'baseline_year_1_arm_1')","Child Opportunity Scores, education domain, state-normed: State-normed Child Opportunity Scores (from 1 to 100) for the education domain.",0.35538697073902176
+"('reshist_addr1_adi_perc', 'baseline_year_1_arm_1')","Residential history derived - Area Deprivation Index: national percentiles, higher means higher value of ADI 1",-0.3389913238906653
+"('reshist_addr1_svi_dis_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile % population with a disability subcomponent) at primary residential address (ACS 2014-2018 5 yr avg),-0.3112656920454607
+"('reshist_addr1_coi_ed_reading', 'baseline_year_1_arm_1')",Education Domain: Third grade reading proficiency,0.29899695932190606
+"('reshist_addr1_coi_zed_reading', 'baseline_year_1_arm_1')","Educational Domain School poverty: Percentage third graders scoring proficient on standardized reading tests, converted to NAEP scale score points, transformed to z-scores.",0.2882130649364561
+"('reshist_addr1_svi_th2_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile household composition theme) at primary residential address (ACS 2014-2018 5 yr avg),-0.2831127344821088
+"('reshist_addr1_opat_kfrpp_p1', 'baseline_year_1_arm_1')",Residential history derived - Opportunity Atlas Mean household income rank for children whose parents were at the 1st percentile of the national income distribution. Incomes for children were measured as mean earnings in 2014-2015 when they were between the ages 31-37 at census tract level.,0.27681098146383337
+"('reshist_addr1_coi_ed_apenr', 'baseline_year_1_arm_1')",Education Domain: Advanced Placement course enrollment,0.22738897440272504
+"('reshist_addr1_coi_zhe_food', 'baseline_year_1_arm_1')","Health and Environment Domain Access to green space: Percentage households without a car located further than a half-mile from the nearest supermarket, transformed to z-scores and multiplied by -1.",0.22619991719291754
+"('reshist_addr1_coi_zed_apenr', 'baseline_year_1_arm_1')","Educational Domain Adult educational attainment: Ratio of students enrolled in at least one AP course to the number of 11th and 12th graders, transformed to z-scores.",0.22301828595134962
+"('reshist_addr1_coi_ed_teachxp', 'baseline_year_1_arm_1')",Education Domain: Teacher experience,-0.18821733225839243
+"('reshist_addr1_coi_zed_teachxp', 'baseline_year_1_arm_1')","Educational Domain Early childhood education centers: Percentage teachers in their first and second year, transformed to z-scores and multiplied by -1.",0.18632916066982752
+"('reshist_addr1_coi_ed_college', 'baseline_year_1_arm_1')",Education Domain: College enrollment in nearby institutions,0.14376139081906594
+"('reshist_addr1_coi_he_heat', 'baseline_year_1_arm_1')",Health and Environment Domain: Extreme heat exposure,-0.12690434052236432
 "('ethnicity', '')_5.0",Race Ethnicity (Child),-0.0830217902962119
 "('reshist_addr1_years', 'baseline_year_1_arm_1')_3.0",Residential history years of residence 1,-0.06883791467832681

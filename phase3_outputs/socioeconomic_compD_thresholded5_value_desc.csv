@@ -1,20 +1,20 @@
 ,description,Latent_Dim57
-"('reshist_addr1_adi_home_o', 'baseline_year_1_arm_1')",,-0.33699454783933147
-"('reshist_addr1_coi_zse_home', 'baseline_year_1_arm_1')",,-0.3236076150677931
-"('reshist_addr1_coi_se_home', 'baseline_year_1_arm_1')",,-0.3223902340172692
-"('reshist_addr1_adi_ncar', 'baseline_year_1_arm_1')",,0.29546418896163923
-"('reshist_addr1_svi_th3_20142018', 'baseline_year_1_arm_1')",,0.28313303252195604
+"('reshist_addr1_adi_home_o', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Percentage of owner 1,-0.33699454783933147
+"('reshist_addr1_coi_zse_home', 'baseline_year_1_arm_1')",Social and Economic Domain: Homeownership rate z-score,-0.3236076150677931
+"('reshist_addr1_coi_se_home', 'baseline_year_1_arm_1')",Social and Economic Domain: Homeownership rate,-0.3223902340172692
+"('reshist_addr1_adi_ncar', 'baseline_year_1_arm_1')",Residential history derived - Area Deprivation Index: Percentage of occupied housing units without a motor vehicle 1,0.29546418896163923
+"('reshist_addr1_svi_th3_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile minority/language theme) at primary residential address (ACS 2014-2018 5 yr avg),0.28313303252195604
 "('ethnicity', '')_1.0",Race Ethnicity (Child),-0.26741402437281014
-"('reshist_addr1_popdensity', 'baseline_year_1_arm_1')",,0.24187385910110373
-"('reshist_addr1_svi_th4_20142018', 'baseline_year_1_arm_1')",,0.21372558025094426
-"('reshist_addr1_d1a', 'baseline_year_1_arm_1')",,0.21262707802408762
-"('reshist_addr1_pm25_2016_min', 'baseline_year_1_arm_1')",,0.20403433461036807
-"('reshist_addr1_proxrd', 'baseline_year_1_arm_1')",,-0.1494233759251163
-"('reshist_addr1_coi_zed_hsgrad', 'baseline_year_1_arm_1')",,-0.14892472399272158
-"('reshist_addr1_coi_ed_hsgrad', 'baseline_year_1_arm_1')",,-0.1488058122462173
-"('reshist_addr1_no2_2016_min', 'baseline_year_1_arm_1')",,0.13984089242044156
+"('reshist_addr1_popdensity', 'baseline_year_1_arm_1')",Residential history derived - UN adjusted population density 1,0.24187385910110373
+"('reshist_addr1_svi_th4_20142018', 'baseline_year_1_arm_1')",Residential history derived - Census tract CDC SVI (percentile housing type/transportation theme) at primary residential address (ACS 2014-2018 5 yr avg),0.21372558025094426
+"('reshist_addr1_d1a', 'baseline_year_1_arm_1')",Residential history derived - gross residential density 1,0.21262707802408762
+"('reshist_addr1_pm25_2016_min', 'baseline_year_1_arm_1')",Residential history derived - minimum of PM2.5 in 2016 at primary residential address at 1x1km2,0.20403433461036807
+"('reshist_addr1_proxrd', 'baseline_year_1_arm_1')","Residential history derived - proximity to major roads, in meters 1",-0.1494233759251163
+"('reshist_addr1_coi_zed_hsgrad', 'baseline_year_1_arm_1')","Educational Domain Third grade math proficiency: Percentage ninth graders graduating from high school on time, transformed to z-scores.",-0.14892472399272158
+"('reshist_addr1_coi_ed_hsgrad', 'baseline_year_1_arm_1')",Education Domain: High school graduation rate,-0.1488058122462173
+"('reshist_addr1_no2_2016_min', 'baseline_year_1_arm_1')",Residential history derived - minimum of NO2 in 2016 at primary residential address at 1x1km2,0.13984089242044156
 "('reshist_state_mj_laws', 'baseline_year_1_arm_1')_3.0",Marijuana state law during the same year as the assessment,-0.1334229838407336
 "('reshist_state_mj_laws', 'baseline_year_1_arm_1')_2.0",Marijuana state law during the same year as the assessment,0.10906919847199427
-"('reshist_addr1_pm25_2016daysepa', 'baseline_year_1_arm_1')",,-0.08705646498215242
+"('reshist_addr1_pm25_2016daysepa', 'baseline_year_1_arm_1')",Residential history derived - number of days in 2016 PM2.5 was above EPA daily standards (35) at primary residential address at 1x1km2,-0.08705646498215242
 "('rel_ingroup_order', 'baseline_year_1_arm_1')_2.0",In-Group Order ID (twins and triplets in the same family and in the same group have different values),-0.08077963418321657
 "('rel_ingroup_order', 'baseline_year_1_arm_1')_1.0",In-Group Order ID (twins and triplets in the same family and in the same group have different values),0.08077963418321654

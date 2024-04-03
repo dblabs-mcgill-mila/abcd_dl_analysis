@@ -1,10 +1,10 @@
 ,description,Latent_Dim93
 "('ethnicity', '')_2.0",Race Ethnicity (Child),-0.3365039481892869
-"('genetic_af_european', 'baseline_year_1_arm_1')",,0.4008767239878562
-"('reshist_addr1_coi_he_rsei', 'baseline_year_1_arm_1')",,-0.11739218294536555
-"('reshist_addr1_coi_zhe_rsei', 'baseline_year_1_arm_1')",,0.12875262274143073
-"('reshist_addr1_coi_zse_jobprox', 'baseline_year_1_arm_1')",,0.1258591917496263
-"('reshist_addr1_pm25', 'baseline_year_1_arm_1')",,-0.16587813128246093
-"('reshist_addr1_pm252016aa', 'baseline_year_1_arm_1')",,-0.18365581069605727
+"('genetic_af_european', 'baseline_year_1_arm_1')",Proportion of European ancestry,0.4008767239878562
+"('reshist_addr1_coi_he_rsei', 'baseline_year_1_arm_1')","Health and Environment Domain: Industrial pollutants in air, water or soil",-0.11739218294536555
+"('reshist_addr1_coi_zhe_rsei', 'baseline_year_1_arm_1')","Industrial pollutants in air, water or soil: Index of toxic chemicals released by industrial facilities, converted to natural log units, transformed to z-scores and multiplied by -1.",0.12875262274143073
+"('reshist_addr1_coi_zse_jobprox', 'baseline_year_1_arm_1')","Commute duration: Percentage workers commuting more than one hour one way, transformed to z-scores and multiplied by -1.",0.1258591917496263
+"('reshist_addr1_pm25', 'baseline_year_1_arm_1')",Residential history derived - annual average of PM 2.5 at 10x10km2 1,-0.16587813128246093
+"('reshist_addr1_pm252016aa', 'baseline_year_1_arm_1')",Residential history derived - annual average of PM 2.5 in 2016 at primary residential address at 1x1km2,-0.18365581069605727
 "('reshist_addr1_years', 'baseline_year_1_arm_1')_5.0",Residential history years of residence 1,-0.053013161170736685
-"('reshist_state_racism_factor', 'baseline_year_1_arm_1')",,-0.1787567034152736
+"('reshist_state_racism_factor', 'baseline_year_1_arm_1')",State level indicators of racism from survey and implicit bias measures and state level structural variables,-0.1787567034152736
