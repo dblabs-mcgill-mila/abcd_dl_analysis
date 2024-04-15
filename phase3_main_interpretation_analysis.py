@@ -401,9 +401,9 @@ plt.tight_layout()
 
 plt.plot(range(1,101), pca_100.explained_variance_ratio_*100, 'o-', linewidth=2, color='blue')
 
-#mark elbow with veritcal line
-#plt.axvline(x = 10, color = 'r', label = 'Elbow')
-#plt.text(10, -0.004, '10', color = 'r', ha='center', va='center')
+#mark elbow with vertical line
+plt.axvline(x = 10, color = 'r', label = 'Elbow')
+plt.text(10, -0.5, '10', color = 'r', ha='center', va='center', size = 28)
 
 
 plt.savefig(f'{save_dir}/pca_scree_explained_variance_percent_elbow.pdf', format='pdf', bbox_inches="tight")
@@ -419,12 +419,12 @@ ax.set_ylabel('Percent of Variance Explained')
 plt.tight_layout()
 
 plt.plot(range(1,101), pca_100_explained_variance_cumulative*100, 'o-', linewidth=2, color='black', label = 'Cumulative')
-plt.plot(range(1,101), pca_100.explained_variance_ratio_*100, 'o-', linewidth=2, color='blue', label = 'Individual')
+#plt.plot(range(1,101), pca_100.explained_variance_ratio_*100, 'o-', linewidth=2, color='blue', label = 'Individual')
 
 #mark elbow with veritcal line
 #plt.axvline(x = 10, color = 'r', label = 'Elbow')
 #plt.text(10, -4.2, '10', color = 'r', ha='center', va='center', size = 28)
-plt.legend()
+#plt.legend()
 
 
 plt.savefig(f'{save_dir}/pca_scree_explained_variance_percent_elbow_cumulative.pdf', format='pdf', dpi = 300, bbox_inches="tight")
@@ -522,6 +522,33 @@ cvae_elbow_dims_names_series = pd.Series(cvae_elbow_dims_names)
 #save component ranking order to csv
 cvae_component_ranking_order = cvae_elbow_dims_names_series.rename("Component")
 cvae_component_ranking_order.to_csv(f'{save_dir}/cvae_component_ranking_order.csv')
+
+#correlation heatmap between CVAE and PCA Weights
+# Set up the matplotlib figure for loading cross correlation
+
+corr_matrix_loadings_df_ranked = corr_matrix_loadings_df[cvae_elbow_dims_list]
+corr_matrix_loadings_df_ranked.columns = [i for i in range(1, 101)]
+corr_matrix_loadings_df_ranked.index = [i for i in range(1, 101)]
+
+plt.rcParams.update(plt.rcParamsDefault)
+params = {'axes.labelsize': 24, 'xtick.labelsize': 14, 'ytick.labelsize': 14}
+plt.rcParams.update(params)
+
+f, ax = plt.subplots(figsize=(11, 9))
+
+sns.heatmap(corr_matrix_loadings_df_ranked.iloc[:10,:10], cmap='coolwarm', annot=False, center=0,
+                square=True, linewidths=.5, cbar_kws={"shrink": .5})
+    
+ax = plt.gca()
+
+#set axis labels
+ax.set_xlabel('CVAE Component')
+ax.set_ylabel('PCA Component')
+
+#save fig
+plt.savefig(f'{save_dir}/pca_cvae_corr_loadings_heatmap.pdf', format='pdf', dpi = 300, bbox_inches='tight')
+
+
 #CVAE scree plot for study pipeline diagram
 
 
@@ -868,14 +895,14 @@ def my_cbar_plot_proportions(data=None, title="", axis_range=None, label=None, c
 colors = get_colors(n_colors=10)
 
 my_cbar_plot_weights(cvae_effect_category_abs_mean_nonzero_ordered_elbow.T.Socioeconomic.values, 
-             title="Socioeconomic Weight Strength", axis_range=None, label=cvae_effect_category_abs_mean_nonzero_ordered_elbow.T.index, color=colors, width=0.25,
+             title="Socioeconomic Weight Strength", axis_range=None, label=cvae_effect_category_abs_mean_nonzero_ordered_elbow.T.index, color=colors, width=0.4,
                  export_figures=True, fig_name='radial_bar_plot_ses_effect.pdf')
 
 #Radial plot SES proportions
 colors = get_colors(n_colors=10)
 
 my_cbar_plot_proportions(percent_nonzero_5pc_domainwise_ordered_elbow.T.Socioeconomic.values, 
-             title="Socioeconomic Proportion", axis_range=None, label=percent_nonzero_5pc_domainwise_ordered_elbow.T.index, color=colors, width=0.25,
+             title="Socioeconomic Proportion", axis_range=None, label=percent_nonzero_5pc_domainwise_ordered_elbow.T.index, color=colors, width=0.4,
                  export_figures=True, fig_name='radial_bar_plot_ses_proportion.pdf')
 #supplementary table 3: unique SES measures per component (4 components) (post-thresholding)
 
@@ -976,6 +1003,31 @@ socioeconomic_loadings_thresholded_dim30_nonzero.loc[ses_unique_to_compA.values,
 socioeconomic_loadings_thresholded_dim80_nonzero.loc[ses_unique_to_compB.values,:].to_csv(f'{save_dir}/socioeconomic_compB_unique.csv')
 socioeconomic_loadings_thresholded_dim57_nonzero.loc[ses_unique_to_compD.values,:].to_csv(f'{save_dir}/socioeconomic_compD_unique.csv')
 socioeconomic_loadings_thresholded_dim93_nonzero.loc[ses_unique_to_compE.values,:].to_csv(f'{save_dir}/socioeconomic_compE_unique.csv')
+
+#Correlate SES loadings (thresholded) across 4 components
+
+plt.rcParams.update(plt.rcParamsDefault)
+params = {'xtick.labelsize': 14, 'ytick.labelsize': 14}
+plt.rcParams.update(params)
+
+cvae_loadings_thresholded_abde_ses = cvae_loadings_df_test_thresholded_category_desc[['Latent_Dim30', 'Latent_Dim80', 'Latent_Dim57', 'Latent_Dim93']][cvae_loadings_df_test_thresholded_category_desc.category == 'Socioeconomic']
+
+cvae_loadings_thresholded_abde_ses_corr = cvae_loadings_thresholded_abde_ses.corr()
+mask = np.triu(cvae_loadings_thresholded_abde_ses_corr)
+
+np.fill_diagonal(mask, False)
+
+#plot correlation of components
+xticks = ['A', 'B', 'D', 'E']
+
+plt.figure(figsize=(8, 6))
+sns.heatmap(cvae_loadings_thresholded_abde_ses_corr, xticklabels=xticks, yticklabels=xticks, fmt = '.2f', square=True, annot=True, vmin = -1, vmax = 1, cmap = 'coolwarm', center=0, mask = mask, cbar_kws={"shrink": 0.7})
+
+#plt.title('Correlation of SES Weight Strengths')
+
+#save to csv 
+plt.savefig(f'{save_dir}/ses_weight_strength_corr.pdf', format='pdf', dpi = 300, bbox_inches='tight')
+
 
 #venn diagram figure
 comp_ses_dict = {
@@ -1228,7 +1280,7 @@ plt.rcParams.update(plt.rcParamsDefault)
 
 #plot component coefficients (for supplement)
 plt.figure(figsize=(8, 8))
-sns.heatmap(coef_matrix_mean_df, annot=True, fmt='.2f', cmap = 'coolwarm', center=0)
+sns.heatmap(coef_matrix_mean_df, annot=True, fmt='.2f', cmap = 'coolwarm', center=0, cbar_kws={"shrink": 0.7})
 plt.xlabel('Component')
 plt.ylabel('State')
 plt.title('Component Coefficients')
@@ -1245,7 +1297,7 @@ conf_matrix = confusion_matrix(true_y_flat, predicted_y_flat, labels=states_alph
 conf_matrix_percent = conf_matrix/conf_matrix.sum(axis=1)[:, np.newaxis]
 # Visualize the confusion matrix as a heatmap
 plt.figure(figsize=(12, 12))
-sns.heatmap(conf_matrix_percent, annot=True, fmt='.2f', cmap='Blues', xticklabels=states_alphabetical, yticklabels=states_alphabetical, vmin = 0, vmax = 1)
+sns.heatmap(conf_matrix_percent, annot=True, fmt='.2f', cmap='Blues', xticklabels=states_alphabetical, yticklabels=states_alphabetical, vmin = 0, vmax = 1, cbar_kws={'label': 'Proportion of Predictions', "shrink": 0.7})
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.title('Confusion Matrix')
@@ -1354,7 +1406,7 @@ ax = fig.add_subplot()
 #label states
 abcd_states.apply(lambda x: ax.annotate(text=x.NAME, xy=x.geometry.centroid.coords[0], ha='center', fontsize=14),axis=1)
 
-us_boundary_map = states.boundary.plot(ax=ax, color='Gray', linewidth=.4)
+us_boundary_map = states.boundary.plot(ax=ax, color='Gray', linewidth=2)
 
 abcd_states[abcd_states.logreg_repr_state == 'A'].plot(ax=us_boundary_map, cmap='Purples', column='logreg_repr_coef_abs', vmin = 0, vmax = abcd_states.logreg_repr_coef_abs.max(), figsize=(12, 12), legend=False) #change legernd to 'True' for colorbars
 abcd_states[abcd_states.logreg_repr_state == 'B'].plot(ax=us_boundary_map, cmap='Blues', column='logreg_repr_coef_abs', vmin = 0, vmax = abcd_states.logreg_repr_coef_abs.max(), figsize=(12, 12), legend=False)
