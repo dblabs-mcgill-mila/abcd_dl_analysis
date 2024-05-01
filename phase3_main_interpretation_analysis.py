@@ -1283,7 +1283,7 @@ plt.figure(figsize=(8, 8))
 sns.heatmap(coef_matrix_mean_df, annot=True, fmt='.2f', cmap = 'coolwarm', center=0, cbar_kws={"shrink": 0.7})
 plt.xlabel('Component')
 plt.ylabel('State')
-plt.title('Component Coefficients')
+#plt.title('Component Coefficients')
 plt.savefig(f'{save_dir}/logreg_ovr_ses_state_10kf_coef_matrix_mean_heatmap.pdf', format='pdf', dpi=300, bbox_inches='tight')
 
 
@@ -1300,7 +1300,7 @@ plt.figure(figsize=(12, 12))
 sns.heatmap(conf_matrix_percent, annot=True, fmt='.2f', cmap='Blues', xticklabels=states_alphabetical, yticklabels=states_alphabetical, vmin = 0, vmax = 1, cbar_kws={'label': 'Proportion of Predictions', "shrink": 0.7})
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
-plt.title('Confusion Matrix')
+#plt.title('Confusion Matrix')
 plt.savefig(f'{save_dir}/logreg_ovr_ses_state_10kf_conf_matrix_percent.pdf', format='pdf', dpi=300, bbox_inches='tight')
 
 
