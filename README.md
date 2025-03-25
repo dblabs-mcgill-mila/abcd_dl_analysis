@@ -1,6 +1,6 @@
 # abcd_dl_analysis
 
-This repository contains all analyses associated with our paper <>.
+This repository contains all analyses associated with our paper "Deep learning reveals that multidimensional social status drives population variation in 11,875 US participant cohort"
 
 Please cite the paper: 
 
